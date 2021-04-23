@@ -1,0 +1,31 @@
+.place-list {
+
+	.card {
+		text-align: center;
+		margin-bottom: 20px;
+		border: 1px solid grey;
+		background-color: rgb(206, 176, 176);
+	}
+	.btn-green {
+		display: block;
+		border: 1px solid $card-button-color;
+		background: transparent;
+		color: $card-button-color;
+	
+		&:hover {
+			background: $card-button-color;
+			color: #fff;
+		}
+
+		@include changer(lg) {
+    		overflow: hidden;
+    		text-overflow: ellipsis;
+  		}
+
+  		@include changer(sm) {
+    		overflow: hidden;
+    		text-overflow: ellipsis;
+  		}
+	}
+
+}

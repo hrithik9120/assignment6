@@ -1,0 +1,59 @@
+.form-box {
+	overflow: hidden;
+	padding: 20px;
+	background: #f7f7f9;
+
+	h3 {
+		font-size: 36px;
+		list-style: 48px;
+		font-weight: $head-and-cols-weight;
+	}
+
+	p {
+		color: #636c72;
+	}
+
+	.btn-green {
+		font-size: 18px;
+		line-height: 27px;
+	}
+
+	.form-group:last-child {
+		margin-top: 1.5rem;
+	}
+}
+
+.form-group {
+	margin-bottom: 1.5rem;
+}
+
+.form-control-label {
+	font-weight: $head-and-cols-weight;
+}
+
+.form-control {
+	line-height: 1.8rem;
+}
+.btn-purple{
+    display: block;
+    border: 1px solid $card-button-color;
+    background: transparent;
+    color:$card-button-color;
+    &:hover{
+        background-color: $card-button-color;
+        color:white
+    }
+}
+.buttons{
+	display: inline-flex;
+	.btn{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+#correct,#wrong{
+	display:none;
+}
+#correctname,#wrongname,#correctno,#wrongno,#correctmail,#wrongmail{
+	display:none;
+}

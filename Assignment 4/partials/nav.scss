@@ -1,0 +1,21 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  .btn-aqua {
+    display: block;
+    border: 1px solid $nav-button-color;
+    background: transparent;
+    color:$nav-button-color;
+  }
+  .nav-link:hover{
+    background-color: rgb(72, 156, 177);
+  }
+  .btn-aqua:hover{
+    @extend .nav-link:hover;
+  }
+  #login{
+    margin-right: 20px;
+    margin-left: 10px;
+  }

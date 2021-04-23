@@ -1,0 +1,19 @@
+.place-list .card {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid grey;
+  background-color: gray;
+}
+
+.place-list .btn-green {
+  display: block;
+  border: 1px solid purple;
+  background: transparent;
+  color: purple;
+}
+
+.place-list .btn-green:hover {
+  background: purple;
+  color: #fff;
+}
+/*# sourceMappingURL=gridcontent.css.map */

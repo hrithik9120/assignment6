@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAA;EACJ,OAAO,EAAE,WAAW;EACpB,UAAU,EAAC,KAAK;CAMnB;;AARD,AAGI,QAHI,CAGJ,MAAM,CAAA;EACF,OAAO,EAAC,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CACd",
+    "sources": [
+        "shopping.scss"
+    ],
+    "names": [],
+    "file": "shopping.css"
+}
